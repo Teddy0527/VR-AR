@@ -1,0 +1,163 @@
+
+ 
+.header-logo img{
+    float: left;
+    padding-bottom:0px 20px 20px 20px;
+    height:30px;
+    width:30px;
+}
+.header-list li{
+    list-style: none;
+    float: left;
+    padding:0px 20px 20px  20px;
+    font-size: large;
+} 
+.header-list a{
+    color:#FF6600;
+}
+.top{
+    text-align: left;
+}    
+.VRman{
+    text-align: center;
+}    
+.VRman img{
+    width: 40vw;
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    
+}    
+h1{
+    text-align:center;
+    font-size:100px;
+}
+p{
+    text-align:center;
+    font-size: 50px;
+    
+}
+.header{
+    padding-bottom: 30px;
+    border-bottom:1px solid #FF6600;
+    
+}
+.header2-3{
+    padding: 50px;
+    margin-top: 20px;
+    z-index:0;
+    overflow: hidden;
+    color:#FF6600;
+
+    
+}
+.header2-3::before{
+    
+    content: '';
+    background: url('https://cdn.pixabay.com/photo/2018/06/07/16/49/vr-3460451_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(4px);/*ぼかし度*/
+    position: absolute;
+
+    top: 40px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    z-index: -1;
+  
+} 
+.header3{
+    width: 50;
+}
+body{
+    font-family:"Yu Gothic Medium" ;
+}    
+main{
+    padding:0px 300px 0px 300px;
+}
+.VR1{
+    margin:25px 0px 50px 0px;
+    padding:25px 25px 25px 25px ;
+    text-align: left;
+}
+.VR1-1 h3{
+    text-align: left;
+    border-left: 10px solid #FF6600;
+    border-bottom:1px solid  #FF6600;
+    padding-left: 10px;   
+}
+.VR1-1 img{
+    padding: 20px 0px 20px 0px ;
+    height: 400px; 
+    object-fit: contain;
+    text-align: left;
+
+}
+.VR1-2 h3{
+    text-align: left;
+    border-left: 10px solid #FF6600;
+    border-bottom:1px solid  #FF6600;
+    padding-left: 10px;
+}
+.VR1-2 img{
+    padding-top:25px ;
+    object-fit: contain;
+    
+}
+.VR1-3 h3{
+    text-align: left;
+    border-left: 10px solid #FF6600;
+    border-bottom:1px solid  #FF6600;
+    padding-left: 10px;
+}
+.VR2{
+    padding:25px 25px 50px 25px;
+    text-align: left;
+
+}
+.VR2 h3{
+    text-align: left;
+    border-left: 10px solid #FF6600;
+    border-bottom:1px solid  #FF6600;
+    padding-left: 10px;
+}
+
+.VR3{
+    padding:25px 25px 200px 25px;
+    margin-bottom:100px ;
+}
+.VR3 h3{
+    text-align: left;
+    border-left: 10px solid #FF6600;
+    border-bottom:1px solid  #FF6600;
+    padding-left: 10px;
+}   
+.VR2 img{
+    padding: 20px 0px 20px 0px ;
+    width: 680px;
+}
+.VR3-1{
+    padding-bottom: 25px;
+    border-bottom:1px solid  #FF6600 ;
+}
+.VR3-2 img{
+    padding-top: 25px;
+    float: left;
+}
+
+.VR3-3 li{
+    list-style: none;
+    float: left;
+    padding: 110px 10px 75px 50px;
+    font-size: large;
+   
+}
+
+.VR3-3 a{
+    display: block;
+    
+
+}
+.under1,.under2,.under3,.under4,.under5{
+    color: #FF6600;
+}
