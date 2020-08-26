@@ -1,0 +1,85 @@
+body{
+    font-family: 'Yu Gothic Medium';
+} 
+.header-logo img{
+    float: left;
+    padding-bottom:0px 20px 20px 20px;
+    height:30px;
+    width:30px;
+}
+.header-list li{
+    list-style: none;
+    float: left;
+    padding:0px 20px 20px  20px;
+    font-size: large;
+} 
+.header-list a{
+    color:#FF6600;
+}
+.header{
+    padding-bottom: 30px;
+    border-bottom:1px solid #FF6600;
+    
+}
+.MR1{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom:290px ;
+
+}
+.MR1::before{
+    content: '';
+    background: url('https://d1f5hsy4d47upe.cloudfront.net/cf/cfb63a839b3c2a1bc88c6c25cde83c87_t.jpeg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px);/*ぼかし度*/
+    position: absolute;
+
+    height: 750px;
+
+    top: 47px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    z-index: -1;
+}
+.MR1 h1{
+    color: #FF6600;
+}
+.MR2,.MR3,.MR4{
+    padding-bottom: 25px;
+}
+main{ 
+    padding:25px 300px 25px 300px;
+}
+.MR2 h3{
+    text-align: left;
+    border-left: 10px solid #FF6600;
+    border-bottom:1px solid  #FF6600;
+    padding-left: 10px;   
+}
+.MR2 img{
+    object-fit: contain;
+}
+.MR3 h3{
+    text-align: left;
+    border-left: 10px solid #FF6600;
+    border-bottom:1px solid  #FF6600;
+    padding-left: 10px;   
+}
+.MR4 h3{
+    text-align: left;
+    border-left: 10px solid #FF6600;
+    border-bottom:1px solid  #FF6600;
+    padding-left: 10px;   
+}
+.MR4-1{
+    padding-bottom: 25px;
+}
+.MR4-2{
+    padding-top:25px ;
+}
+
+.under1,.under2{
+    color: #FF6600;
+}   
